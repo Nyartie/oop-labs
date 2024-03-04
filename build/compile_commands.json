@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/nyartie/Git/oop-labs/build",
+  "command": "/usr/bin/g++  -I/home/nyartie/Git/oop-labs/lab_1/include -g -o CMakeFiles/main_lab1.dir/main.cpp.o -c /home/nyartie/Git/oop-labs/lab_1/main.cpp",
+  "file": "/home/nyartie/Git/oop-labs/lab_1/main.cpp"
+}
+]
