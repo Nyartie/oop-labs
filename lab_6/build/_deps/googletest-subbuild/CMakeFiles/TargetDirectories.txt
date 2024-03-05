@@ -1,0 +1,3 @@
+/home/nyartie/Git/oop-labs/lab_6/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+/home/nyartie/Git/oop-labs/lab_6/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/home/nyartie/Git/oop-labs/lab_6/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

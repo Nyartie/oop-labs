@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_l6.dir/src/main.cpp.o CMakeFiles/test_l6.dir/src/npc.cpp.o CMakeFiles/test_l6.dir/src/visitor.cpp.o -o test_l6  lib/libgtest_main.a liblib_l6.a lib/libgtest.a 
