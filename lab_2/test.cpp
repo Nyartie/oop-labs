@@ -52,7 +52,6 @@ TEST(test_9, constructor_test){
 }
 
 TEST(test_10, constructor_test){
-    // Hex h("HH");
     ASSERT_THROW(Hex("-A12"), input_error);
 }
 

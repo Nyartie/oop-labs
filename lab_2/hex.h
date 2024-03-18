@@ -28,12 +28,7 @@ class Hex{
         Hex(const initializer_list<unsigned char> &l);
         Hex(const string &s);
         Hex(const Hex &other); //копирующий конструктор
-        Hex(Hex &&other) noexcept; //==move??
-
-        // friend Hex operator++(Hex &h, int);
-        // friend Hex& operator++(Hex &h);
-        // friend Hex operator--(Hex &h, int);s
-        // friend Hex& operator--(Hex &h);
+        Hex(Hex &&other) noexcept;
 
         bool operator == (const Hex &h) const;
         bool operator > (const Hex &h) const;

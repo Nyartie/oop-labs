@@ -15,15 +15,9 @@ coord::~coord(){
     y=0;
 }
 
-bool double_cmp(double a, double b){
-    // int a1, b1;
-    // a1=a*MY_EPS;
-    // b1=b*MY_EPS;
-    // if(int(abs(b-a)*MY_EPS)==0){
-    //     return true;
-    // }
+bool double_cmp(double a, double b){ 
     double r=a-b;
-    // cout<<"My eps="<<MY_EPS<<"  rasn ="<<r<<'\n';
+    
     if((r>0 and r<MY_EPS) or(r<0 and (r*(-1)<MY_EPS)) or r==0){
         return true;
     }

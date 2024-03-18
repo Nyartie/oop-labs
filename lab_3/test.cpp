@@ -192,7 +192,6 @@ TEST(test_22, check_figure_arrive){
     coord ch1(2,0), ch2(1.39,1.28),ch3(-0.02, 1.4),ch4(-0.83, 0.23),ch5(-0.22, -1.05),ch6(1.19,-1.16);
     Hexagon h{ch1,ch2,ch3, ch4,ch5,ch6};
     F_array mas={&t,&h};
-    // int s=0;
     int s=mas.get_size();
     ASSERT_TRUE(s==2);
 }

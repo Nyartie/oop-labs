@@ -12,20 +12,12 @@ using namespace std;
 namespace My_allocator{
     template<class T, size_t BLOCK_SIZE>
     class Allocator{
-        // typedef struct item{
-        //     bool used;
-        //     T* ptr;
-        // };
         private:
             size_t _free_idx;
             size_t _count_of_blocks=BLOCK_SIZE/CHUNK_SIZE;
             map<T*, bool> _used_blocks;
-            // array<item, BLOCK_SIZE> _used_blocks;
-            // item _used_blocks[BLOCK_SIZE];
             array<T, BLOCK_SIZE> _free_blocks;
             
-            // array<T*, BLOCK_SIZE/CHUNK_SIZE> _free_blocks;
-            // T* _free_blocks;
         public:
             static constexpr size_t max_count = BLOCK_SIZE;
             using value_type = T;
@@ -34,13 +26,6 @@ namespace My_allocator{
             using size_type = size_t;
 
             Allocator(){
-                // _free_blocks= new value_type[max_count];
-                // for(int i=0;i<BLOCK_SIZE; ++i){
-                //     item tmp;
-                //     tmp.used=false;
-                //     tmp.ptr=&_free_blocks[i];
-                //     _used_blocks[i]=tmp;
-                // }
                 _free_idx=0;
                 
             }
@@ -62,15 +47,6 @@ namespace My_allocator{
 
             pointer allocate(size_t n){
                 pointer result = nullptr;
-                // if (_free_idx+n<max_count){
-                //     result=(T*)_free_blocks[_free_idx];
-                //     _free_idx=_free_idx+n;
-                //     result = (T *)_free_blocks[--_free_idx];
-// #ifdef DEBUG
-//                     std::cout << "allocator: Allocate " << (max_count - _free_idx) << " of " << max_count << " Address:" << result << std::endl;
-// #endif
-                // }
-                
                 if (_free_idx +n < BLOCK_SIZE)
                 {
                     result = (T*)&_free_blocks[_free_idx];
@@ -98,9 +74,6 @@ namespace My_allocator{
     #ifdef DEBUG
                 cout << "allocator: Deallocate block "<<point << endl;
     #endif
-                    // for(int i=_free_idx-1; i>=_free_idx-n;--i){
-                    //     _used_blocks[i]=false;
-                    // }
                     _used_blocks[point]=false;
                     _free_idx-=n;
                 }

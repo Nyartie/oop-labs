@@ -125,8 +125,6 @@ void npc_print() {
                         default:
                             break;
                     }
-                // } else {
-                //     fields[i][j] = 'x';
                 }
             }
         }

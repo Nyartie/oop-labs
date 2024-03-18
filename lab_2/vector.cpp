@@ -29,20 +29,20 @@ static void decrease_if_possible(vector_c *v){
             }
             if (new_cap<v->cap && v->size>0){
                 int new_r =new_cap-1;
-                if(v->head>=new_r && (v->tail>new_r || v->tail==0) ){ // [  | ## ] + [  |## ] + [  | ##] -> [## | ]
+                if(v->head>=new_r && (v->tail>new_r || v->tail==0) ){
                     for(int i=0; i<v->size;++i){
                         v->buff[i]=v->buff[v->head+i];
                     }
                     v->head=0;
                     v->tail=v->size;
                 }
-                if(v->head<new_r && v->tail>new_r){ // [  #|#  ] -> [#  #| ]
+                if(v->head<new_r && v->tail>new_r){
                     for(int i=0; i<v->tail-new_r-1;++i){
                         v->buff[i]=v->buff[new_r+1+i];
                     }
                     v->tail=v->tail-new_r-1;
                 }
-                if (v->tail<new_r && v->head>new_r){ // [#  |  #] -> [#  #| ]
+                if (v->tail<new_r && v->head>new_r){
                     for(int i=0; i<v->head-v->cap;++i){
                         v->buff[new_r]=v->buff[v->cap-1-i];
                         new_r--;
@@ -176,24 +176,3 @@ bool push_front(vector_c *v, char val){
     v->size++;
     return true;
 }
-
-
-// int main(){
-//     vector_c v;
-//     init(&v);
-//     set_size(&v, 52);
-//     for(int i=0; i< 10; ++i){
-//         set_el(&v, i, i);
-//         printf("%d ", (&v)->buff[i]);
-//     }
-//     cout<<"hui\n"<<v.head;
-//     // set_size(&v, 41);
-//     // set_size(&v,80);
-//     // for(int i=40; i<80;++i){
-//     //     set_el(&v, i, i);
-//     // // }
-//     for (int i=0; i<52;++i){
-//         printf("%d ", get_el(&v, i));
-//     }
-    
-// }

@@ -6,10 +6,6 @@ TEST(test_1, construct_vector){
     ASSERT_TRUE(v.size()==10);
 }
 
-// TEST(test_2, construct_vector){
-//     // Myvector<int, My_allocator::Allocator<int, 50>> v(60);
-//     ASSERT_THROW(Myvector<int, My_allocator::Allocator<int, 50>>v(10), logic_error);
-// }
 
 TEST(test_3, construct_vector){
     Myvector<int, My_allocator::Allocator<int, 50>> v;
@@ -99,7 +95,6 @@ TEST(test_13, insert){
     ASSERT_TRUE(v[1]==10 and v.size()==7 and v[0]==0);
 }
 
-// ASSERT_THROW(Hexagon<double>h({co1,co2,co3, co4,co5,co6}), logic_error);
 
 int main(int argc, char **argv){
     testing::InitGoogleTest(&argc, argv);

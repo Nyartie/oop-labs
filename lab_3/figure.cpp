@@ -23,16 +23,14 @@ Figure::Figure(const vector<coord> &v, const int count){
     if(v.size()!=count){
         throw logic_error("Uncorrect input");
     } else{
-                // cout<<"hui1";
         _angles_count=count;
         _array.resize(count);
         _array_size=count;
         for(int i=0; i<count;++i){
             _array[i]=v[i];
         }
-        // sort(_array.begin(), _array.end(), cmp);
         if(!is_correct()){
-            // throw logic_error("Unacceptable coordinats");
+            throw logic_error("Unacceptable coordinats");
         }
     }
 }

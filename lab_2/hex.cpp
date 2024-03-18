@@ -270,7 +270,6 @@ Hex& Hex::operator-(const Hex &other){
                 }else{
                     debt=1;
                 }
-                // debt=(abs(a-debt)+Radix_baze-1)/Radix_baze;
             }
         }
         delete [] _array;
@@ -297,15 +296,3 @@ Hex::~Hex() noexcept{
         _array=NULL;
     }
 }
-
-// int main(){
-//     try{
-//         Hex h_2("0");
-//         Hex h;
-//         (h_2-h_2).print(cout)<<'\n';
-//         cout<<(h==h_2);
-
-//     } catch(const input_error& err){
-//         cout<<"Error: "<< err.what()<<'\n';
-//     }
-// }

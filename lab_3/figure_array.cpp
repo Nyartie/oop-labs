@@ -17,7 +17,6 @@ F_array::F_array(const initializer_list<Figure*> &l){
     for(Figure *f :l ){
         add_figure(f);
     }
-    // _size=l.size();
 
 } 
 

@@ -7,8 +7,6 @@ using namespace std;
 #define MIN_CAP 10
 #define K 2
 
-// My_allocator::Allocator<T, BLOCK_SIZE>
-// template<class T, size_t BLOCK_SIZE, class ALLOCATOR = My_allocator::Allocator<T, BLOCK_SIZE>>
 
 template<class T, class ALLOCATOR >
 class Myvector{
@@ -45,16 +43,6 @@ class Myvector{
 
                 }
 
-
-                // Iterator next(int s){
-                //     int cur_ind= this->idx;
-                //     for(int i=0;i<cur_ind+s;++i){
-                //         this++;
-                //     }
-                //     return *this;
-
-                // }
-
                 bool operator!=(const Iterator &other) const{
                     if(idx!=other.idx) return true;
                     if(&vector!=&(other.vector)) return true;
@@ -73,7 +61,6 @@ class Myvector{
         };
     public:
         using Const_iterator = Iterator;
-        // using allocator_type = ALLOCATOR;
         using Allocator_traits = allocator_traits<ALLOCATOR>;
 
         using difference_type = ptrdiff_t ; 
@@ -187,7 +174,6 @@ class Myvector{
             } else{
                 pointer new_arr= Allocator_traits::allocate(_allocator, n);
                 _capacity=n+_capacity;
-                // _size=n;
 
             }
         }
@@ -207,9 +193,6 @@ class Myvector{
             } else{
                 throw logic_error("Try to pop zero-size vector");
             }
-            // if(_size<_capacity/K){
-            //     resize(_capacity/K);
-            // }
         }
         Iterator insert(Iterator pos, value_type val){
             if (pos.idx>_size){
@@ -248,7 +231,4 @@ class Myvector{
         int _capacity;
         T* _array;        
         ALLOCATOR _allocator;
-        //  allocator;
 };
-
-//erase+insert
