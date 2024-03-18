@@ -1,26 +1,17 @@
 cmake_minimum_required(VERSION 3.10)
-project(l2)
+project(Laba_2_OOP)
 
-include_directories(include)
-file(GLOB SOURCES "src/*.cpp")
-file(GLOB TESTS "tests/*.cpp")
+find_package(GTest REQUIRED)
+include_directories(${GTEST_INCLUDE_DIRS})
 
-include(FetchContent)
-FetchContent_Declare(
-  googletest
-  URL https://github.com/google/googletest/archive/03597a01ee50ed33e9dfd640b249b4be3799d395.zip
-)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
-FetchContent_MakeAvailable(googletest)
+add_executable(main main.cpp hex.cpp)
+
 
 enable_testing()
+add_executable(test_zero test.cpp  hex.cpp)
+target_link_libraries(test_zero ${GTEST_LIBRARIES})
 
-add_executable(test_l2 ${TESTS} ${SOURCES})
-target_link_libraries(
-  test_l2
-  GTest::gtest_main
-)
-
-include(GoogleTest)
-add_test(NAME BASIC COMMAND tests)
+add_test(NAME BASIC COMMAND test_zero)

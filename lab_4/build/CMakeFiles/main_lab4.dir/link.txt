@@ -1,1 +1,0 @@
-/usr/bin/c++  -std=c++20 CMakeFiles/main_lab4.dir/main.cpp.o -o main_lab4 

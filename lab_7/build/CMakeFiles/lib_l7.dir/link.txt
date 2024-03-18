@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblib_l7.a CMakeFiles/lib_l7.dir/lib/druid.cpp.o CMakeFiles/lib_l7.dir/lib/npc.cpp.o CMakeFiles/lib_l7.dir/lib/orc.cpp.o CMakeFiles/lib_l7.dir/lib/slaver.cpp.o
+/usr/bin/ranlib liblib_l7.a

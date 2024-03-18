@@ -1,0 +1,5 @@
+/home/nyartie/Git/oop-labs/lab_3/CMakeFiles/main.dir
+/home/nyartie/Git/oop-labs/lab_3/CMakeFiles/test_zero.dir
+/home/nyartie/Git/oop-labs/lab_3/CMakeFiles/test.dir
+/home/nyartie/Git/oop-labs/lab_3/CMakeFiles/edit_cache.dir
+/home/nyartie/Git/oop-labs/lab_3/CMakeFiles/rebuild_cache.dir

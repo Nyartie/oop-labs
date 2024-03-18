@@ -1,0 +1,268 @@
+
+Murder --------
+killer: Sofia: position: {12, 15}
+victim: Alexander: position: {12, 15}
+
+Murder --------
+killer: Charles: position: {12, 19}
+victim: Victoria: position: {12, 19}
+
+Murder --------
+killer: Charlotte: position: {14, 17}
+victim: William: position: {14, 17}
+
+Murder --------
+killer: David: position: {13, 6}
+victim: Lucas: position: {13, 6}
+
+Murder --------
+killer: Penelope: position: {23, 8}
+victim: Chloe: position: {23, 8}
+
+Murder --------
+killer: Noah: position: {11, 8}
+victim: Elijah: position: {11, 8}
+
+Murder --------
+killer: Joshua: position: {7, 25}
+victim: Joseph: position: {7, 25}
+
+Murder --------
+killer: David: position: {8, 17}
+victim: Jack: position: {8, 17}
+
+Murder --------
+killer: David: position: {4, 19}
+victim: Jackson: position: {4, 19}
+
+Murder --------
+killer: Jonathan: position: {22, 5}
+victim: Ella: position: {22, 5}
+
+Murder --------
+killer: David: position: {5, 22}
+victim: Anthony: position: {5, 22}
+
+Murder --------
+killer: Lily: position: {24, 13}
+victim: Emma: position: {24, 13}
+
+Murder --------
+killer: Penelope: position: {19, 18}
+victim: Abigail: position: {19, 18}
+
+Murder --------
+killer: Zoe: position: {0, 1}
+victim: Ava: position: {0, 1}
+
+Murder --------
+killer: Noah: position: {1, 2}
+victim: Sofia: position: {1, 2}
+
+Murder --------
+killer: Henry: position: {9, 10}
+victim: Mia: position: {9, 10}
+
+Murder --------
+killer: Noah: position: {4, 2}
+victim: Isabella: position: {4, 2}
+
+Murder --------
+killer: Samuel: position: {11, 8}
+victim: James: position: {11, 8}
+
+Murder --------
+killer: Noah: position: {18, 24}
+victim: Benjamin: position: {18, 24}
+
+Murder --------
+killer: Addison: position: {15, 22}
+victim: Christian: position: {15, 22}
+
+Murder --------
+killer: Addison: position: {19, 19}
+victim: Nora: position: {19, 19}
+
+Murder --------
+killer: Noah: position: {19, 12}
+victim: Charlotte: position: {19, 12}
+
+Murder --------
+killer: Joshua: position: {15, 2}
+victim: Grace: position: {15, 2}
+
+Murder --------
+killer: Noah: position: {22, 20}
+victim: Daniel: position: {22, 20}
+
+Murder --------
+killer: Joshua: position: {23, 2}
+victim: Lily: position: {23, 2}
+
+Murder --------
+killer: Andrew: position: {14, 18}
+victim: David: position: {14, 18}
+
+Murder --------
+killer: Joshua: position: {23, 3}
+victim: Michael: position: {23, 3}
+
+Murder --------
+killer: Joshua: position: {15, 2}
+victim: Sophia: position: {15, 2}
+
+Murder --------
+killer: David: position: {16, 0}
+victim: Amelia: position: {16, 0}
+
+Murder --------
+killer: Joshua: position: {6, 2}
+victim: Jonathan: position: {6, 2}
+
+Murder --------
+killer: David: position: {7, 0}
+victim: Ryan: position: {7, 0}
+
+Murder --------
+killer: Samuel: position: {4, 10}
+victim: Harper: position: {4, 10}
+
+Murder --------
+killer: David: position: {20, 0}
+victim: Addison: position: {20, 0}
+
+Murder --------
+killer: Sofia: position: {12, 15}
+victim: Alexander: position: {12, 15}
+
+Murder --------
+killer: Charles: position: {12, 19}
+victim: Victoria: position: {12, 19}
+
+Murder --------
+killer: Charlotte: position: {14, 17}
+victim: William: position: {14, 17}
+
+Murder --------
+killer: David: position: {13, 6}
+victim: Lucas: position: {13, 6}
+
+Murder --------
+killer: Penelope: position: {23, 8}
+victim: Chloe: position: {23, 8}
+
+Murder --------
+killer: Noah: position: {11, 8}
+victim: Elijah: position: {11, 8}
+
+Murder --------
+killer: Joshua: position: {7, 25}
+victim: Joseph: position: {7, 25}
+
+Murder --------
+killer: David: position: {8, 17}
+victim: Jack: position: {8, 17}
+
+Murder --------
+killer: David: position: {4, 19}
+victim: Jackson: position: {4, 19}
+
+Murder --------
+killer: Jonathan: position: {22, 5}
+victim: Ella: position: {22, 5}
+
+Murder --------
+killer: David: position: {5, 22}
+victim: Anthony: position: {5, 22}
+
+Murder --------
+killer: Lily: position: {24, 13}
+victim: Emma: position: {24, 13}
+
+Murder --------
+killer: Penelope: position: {19, 18}
+victim: Abigail: position: {19, 18}
+
+Murder --------
+killer: Zoe: position: {0, 1}
+victim: Ava: position: {0, 1}
+
+Murder --------
+killer: Noah: position: {1, 2}
+victim: Sofia: position: {1, 2}
+
+Murder --------
+killer: Henry: position: {9, 10}
+victim: Mia: position: {9, 10}
+
+Murder --------
+killer: Isabella: position: {4, 2}
+victim: Noah: position: {4, 2}
+
+Murder --------
+killer: Addison: position: {18, 13}
+victim: Ryan: position: {18, 13}
+
+Murder --------
+killer: Andrew: position: {16, 8}
+victim: Evelyn: position: {16, 8}
+
+Murder --------
+killer: Henry: position: {19, 7}
+victim: James: position: {19, 7}
+
+Murder --------
+killer: Charles: position: {17, 19}
+victim: Grace: position: {17, 19}
+
+Murder --------
+killer: Joshua: position: {11, 3}
+victim: Sophia: position: {11, 3}
+
+Murder --------
+killer: David: position: {10, 2}
+victim: Charlotte: position: {10, 2}
+
+Murder --------
+killer: Emily: position: {8, 5}
+victim: Christian: position: {8, 5}
+
+Murder --------
+killer: David: position: {3, 13}
+victim: David: position: {3, 13}
+
+Murder --------
+killer: David: position: {8, 14}
+victim: Scarlett: position: {8, 14}
+
+Murder --------
+killer: Charles: position: {2, 13}
+victim: Nora: position: {2, 13}
+
+Murder --------
+killer: Samuel: position: {11, 22}
+victim: Henry: position: {11, 22}
+
+Murder --------
+killer: Samuel: position: {16, 23}
+victim: Emily: position: {16, 23}
+
+Murder --------
+killer: Jonathan: position: {21, 2}
+victim: Amelia: position: {21, 2}
+
+Murder --------
+killer: David: position: {15, 4}
+victim: Isabella: position: {15, 4}
+
+Murder --------
+killer: Elizabeth: position: {3, 19}
+victim: Daniel: position: {3, 19}
+
+Murder --------
+killer: Joshua: position: {13, 16}
+victim: Harper: position: {13, 16}
+
+Murder --------
+killer: David: position: {23, 5}
+victim: Elizabeth: position: {23, 5}

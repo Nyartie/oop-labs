@@ -1,0 +1,4 @@
+/home/nyartie/Git/oop-labs/lab_7/build/CMakeFiles/lib_l7.dir
+/home/nyartie/Git/oop-labs/lab_7/build/CMakeFiles/main_l7.dir
+/home/nyartie/Git/oop-labs/lab_7/build/CMakeFiles/edit_cache.dir
+/home/nyartie/Git/oop-labs/lab_7/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/coord.cpp.o CMakeFiles/main.dir/figure.cpp.o CMakeFiles/main.dir/figure_array.cpp.o CMakeFiles/main.dir/hexagon.cpp.o CMakeFiles/main.dir/octagon.cpp.o CMakeFiles/main.dir/triangle.cpp.o -o main 

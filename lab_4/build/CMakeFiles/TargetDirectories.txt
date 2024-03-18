@@ -1,3 +1,0 @@
-/home/nyartie/Git/oop-labs/lab_4/build/CMakeFiles/main_lab4.dir
-/home/nyartie/Git/oop-labs/lab_4/build/CMakeFiles/edit_cache.dir
-/home/nyartie/Git/oop-labs/lab_4/build/CMakeFiles/rebuild_cache.dir
